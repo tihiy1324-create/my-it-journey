@@ -1,0 +1,78 @@
+/* Делаем тело страницы красивым */
+body {
+    /* Цвет фона: тёмно-синий, как у серьёзных IT-компаний */
+    background-color: #1e2a38;
+
+    /* Цвет текста: светло-серый, чтобы читалось */
+    color: #e0e0e0;
+
+    /* Шрифт: современный без засечек */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* Убираем отступы по краям */
+    margin: 0;
+    padding: 0;
+
+    /* Включаем выравнивание по центру */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Растягиваем фон на всю высоту экрана */
+    min-height: 100vh;
+}
+
+/* Создаём "карточку" визитки */
+.card {
+    /* Максимальная ширина карточки */
+    max-width: 600px;
+
+    /* Фон карточки: полупрозрачный белый */
+    background-color: rgba(255, 255, 255, 0.1);
+
+    /* Отступы внутри карточки */
+    padding: 40px;
+
+    /* Скругление углов */
+    border-radius: 16px;
+
+    /* Тень для объёма */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Оформляем заголовки */
+h1 {
+    color: #64b5f6; /* Голубой акцент */
+    font-size: 2.5em; /* Крупнее стандартного */
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #90caf9; /* Чуть светлее голубого */
+    font-size: 1.4em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Линия-разделитель */
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 20px 0;
+}
+
+/* Список навыков */
+ul {
+    list-style-type: square; /* Квадратные маркеры */
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px; /* Воздух между пунктами */
+}
+
+/* Курсив внизу */
+i {
+    color: #a0a0a0;
+}
